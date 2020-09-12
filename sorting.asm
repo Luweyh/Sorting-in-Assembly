@@ -1,10 +1,6 @@
-TITLE Sorting and Counting Random Integers with Median!     (project_5.asm)
+TITLE Sorting and Counting Random Integers with Median!     (sorting.asm)
 
 ; Author: Luwey Hon
-; Last Modified: 5/22/2020
-; OSU email address: honl@oregonstate.edu
-; Course number/section: CS 271 C400
-; Project Number:  5               Due Date: 5/24/2020
 ; Description: This program starts with an inroduction that displays
 ;	the heading and program description. It then displays the user's unsorted
 ;	integers from [0 .. 200]. After that it counts the number of instance
@@ -146,7 +142,7 @@ introduction PROC
 	mov		edx, [ebp + 8]		; instruciton_3
 	call	WriteString
 	pop		ebp
-	ret		24					; clear the stack
+	ret		24			; clear the stack
 
 introduction ENDP
 
